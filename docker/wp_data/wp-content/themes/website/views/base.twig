@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ site.theme.uri }}/favicon.ico" type="image/png">
+    <title>{{ site.name }}</title>
+    <link rel="stylesheet" href="{{ site.theme.uri }}/assets/styles.e918a1ffd7b6ca9e29151b4858879d5b.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {families: ['Open Sans:400,700']},
+            custom: {families: ['Custom Font', 'Custom Font:n7'], urls: ['{{ site.theme.uri }}/assets/fonts.d41d8cd98f00b204e9800998ecf8427e.css']}
+        });
+    </script>
+</head>
+<body class="body">
+{% include('header.twig') %}
+{% block main %}{% endblock %}
+<script src="{{ site.theme.uri }}/assets/main.ffafc01a38f002abb945.js" defer></script>
+</body>
+</html>

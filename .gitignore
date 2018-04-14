@@ -1,0 +1,9 @@
+/.idea
+/docker/db_data
+/docker/wp_data/*
+!/docker/wp_data/wp-content
+/docker/wp_data/wp-content/*
+!/docker/wp_data/wp-content/themes
+/docker/wp_data/wp-content/themes/*
+!/docker/wp_data/wp-content/themes/website
+/docker/wp_data/wp-content/themes/website/assets
